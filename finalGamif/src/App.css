@@ -1,0 +1,316 @@
+#miElemento{
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+}
+#miElemento img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 9999px;
+}
+#displayedTextInicio, #displayedText1{
+  position: absolute;
+  bottom: 100px;
+  right: 50px;
+  border: 3px solid #1a1a1a;
+  border-radius: 16px;
+  padding: 16px;
+}
+#globosDeTexto{
+  background-color: aliceblue;
+}
+#displayedText1{
+  display: none;
+}
+.allMightContainer{
+  height: 100vh;
+  position: relative;
+}
+#inventarioDeIngredientes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: aliceblue;
+
+}
+#inventarioDeIngredientes img{
+  width: 50px;
+  height: 50px; 
+}
+#RecetasListas{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: aliceblue;
+
+
+}
+#RecetasListas .idk{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: aliceblue;
+}
+p{
+  margin: 0;
+}
+#RecetasListas img{
+  width: 50px;
+  height: 50px; 
+}
+
+#utils{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: aliceblue;
+
+}
+
+#utils img{
+  width: 60px;
+  height: 60px; 
+}
+
+.PreparRecetas{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: aliceblue;
+
+}
+
+#puntuacion{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.idk img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 9999px;
+}
+.idk{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: aliceblue;
+}
+#PlatosListos{
+  display: flex;
+}
+
+#tienda{
+padding: 32px;
+width: 95%;
+}
+.TiendaVirtual{
+display: flex;
+flex-direction: column;
+gap: 16px;
+width: 100%;
+}
+#cocinando{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+}
+
+.mesaflorero{
+  width: 100px;
+  height: 100px;
+}
+
+#cocinando img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+
+}
+#controles{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  gap: 16px;
+}
+
+.estrella{
+  width: 50px;
+  height: 50px;
+
+}
+
+.papelTapiz, .estilosMesas, .estiloPiso, .recetas_por_desbloquear{
+display: flex;
+
+gap: 32px;
+}
+.papelTapiz div, .estilosMesas div, .estiloPiso div, .recetas_por_desbloquear div{
+  display: flex;
+  justify-content: center;
+align-items: center;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center ;
+}
+.recetas_por_desbloquear img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+
+}
+
+#recetarioMagico{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px;
+}
+.receta_div{
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+}
+.recetario_div_container{
+  padding: 32px;
+}
+.receta_div img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  z-index: -100;
+  filter: blur(4px);
+}
+
+#recetarioMagico{
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  background-color: aliceblue;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.mesasYDeco{
+  display: flex;
+  justify-content: space-around;
+}
+.mesasYDeco div{
+  display: flex;
+  flex-direction: column;
+}
+#tienda{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-color: aliceblue;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+#misLogros{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+#Inventario{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.btnCerrar{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+    border: none;
+  outline: none;
+  margin: 50px;
+  z-index: 999;
+}
+.btnCerrar:hover{
+  cursor: pointer;
+  background-color: rgb(216, 75, 75);
+  color: white;
+}
+.papeltapiz{
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+#miRestaurante{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
