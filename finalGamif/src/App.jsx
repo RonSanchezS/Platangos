@@ -1050,20 +1050,13 @@ function App() {
           >
             Ver mi restaurante
           </button>
+          <div id="puntuacion">
+        <p>Dinero actual: {puntuacion}Bs.</p>
+      </div>
         </section>
-        <div id="miElemento">
-          <img src={Casera} alt="la casera" />
-        </div>
+      
         <div id="globosDeTexto">
-          <div id="GloboDeTexto"></div>
-          <p
-            id="displayedTextInicio"
-            onClick={() => {
-              cambiarTexto();
-            }}
-          >
-            Haz click para comenzar
-          </p>
+         
           <p
             id="displayedText1"
             onClick={() => {
@@ -1074,6 +1067,8 @@ function App() {
             los más deliciosos platos típicos de Santa Cruz.
           </p>
           <div id="inventarioDeIngredientes">
+          <p>Tus ingredientes:</p>
+            <div class="divingredientes">
             <img
               src={Urucu}
               alt="urucu"
@@ -1229,6 +1224,7 @@ function App() {
                 handleClickIngrediente("huevo");
               }}
             />
+            </div>
           </div>
           <div id="utils">
             <img
@@ -1344,6 +1340,7 @@ function App() {
         <section id="recetarioMagico">
           <div>
             Recetario, aqui iran todas las recetas que vayas desbloqueando.
+            Para empezar, selecciona un ingrediente y cocinalo con una herramienta que tengas a tu disposicion.
           </div>
           <button
             class="btnCerrar"
@@ -1376,9 +1373,7 @@ function App() {
             ))}
         </section>
       )}
-      <div id="puntuacion">
-        <p>Dinero actual: {puntuacion}Bs.</p>
-      </div>
+      
       {VisibleTienda && (
         <section id="tienda">
           <button
